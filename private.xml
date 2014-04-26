@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<root>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_Calculator</name>
+    <url type="file">/Applications/Calculator.app</url>
+  </vkopenurldef>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_AppStore</name>
+    <url type="file">/Applications/App Store.app</url>
+  </vkopenurldef>
+
+  <item>
+    <name>Change F1 to Play/Pause Music</name>
+    <identifier>private.f1_to_toggle_music</identifier>
+    <autogen>__KeyToKey__ KeyCode::F1, KeyCode::VK_CONSUMERKEY_MUSIC_PLAY</autogen>
+  </item>
+
+  <item>
+    <name>Change F2 to Mute Audio</name>
+    <identifier>private.f2_to_mute_audio</identifier>
+    <autogen>__KeyToKey__ KeyCode::F2, KeyCode::VK_CONSUMERKEY_VOLUME_MUTE</autogen>
+  </item>
+
+  <item>
+    <name>Change F3 to Decrease Volume</name>
+    <identifier>private.f3_to_decrease_volume</identifier>
+    <autogen>__KeyToKey__ KeyCode::F3, KeyCode::VK_CONSUMERKEY_VOLUME_DOWN</autogen>
+  </item>
+
+  <item>
+    <name>Change F4 to Increase Volume</name>
+    <identifier>private.f4_to_increase_volume</identifier>
+    <autogen>__KeyToKey__ KeyCode::F4, KeyCode::VK_CONSUMERKEY_VOLUME_UP</autogen>
+  </item>
+
+  <item>
+    <name>Change F5 to Spotlight</name>
+    <identifier>private.f5_to_spotlight</identifier>
+    <autogen>__KeyToKey__ KeyCode::F5, KeyCode::SPACE, ModifierFlag::COMMAND_L</autogen>
+  </item>
+
+  <item>
+    <name>Change F6 to App Store</name>
+    <identifier>private.f6_to_appstore</identifier>
+    <autogen>__KeyToKey__ KeyCode::F6, KeyCode::VK_OPEN_URL_APP_AppStore</autogen>
+  </item>
+
+  <item>
+    <name>Change F7 to Take ScreenShot</name>
+    <identifier>private.f7_to_take_screenshot</identifier>
+    <autogen>__KeyToKey__ KeyCode::F7, KeyCode::KEY_3, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item>
+    <name>Change F8 to Preferences</name>
+    <identifier>private.f8_to_preferences</identifier>
+    <autogen>__KeyToKey__ KeyCode::F8, KeyCode::COMMA, ModifierFlag::COMMAND_L</autogen>
+  </item>
+
+  <item>
+    <name>Change F9 to Quicklook</name>
+    <identifier>private.f9_to_quicklook</identifier>
+    <autogen>__KeyToKey__ KeyCode::F9, KeyCode::Y, ModifierFlag::COMMAND_L</autogen>
+  </item>
+
+  <item>
+    <name>Change F10 to Mission Control</name>
+    <identifier>private.f10_to_brightness_up</identifier>
+    <autogen>__KeyToKey__ KeyCode::F10, KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L</autogen>
+  </item>
+
+  <item>
+    <name>Change F11 to Show Desktop</name>
+    <identifier>private.f11_to_show_desktop</identifier>
+    <autogen>__KeyToKey__ KeyCode::F11, KeyCode::F11</autogen>
+  </item>
+
+  <item>
+    <name>Change F12 to Dashboard</name>
+    <identifier>private.f12_to_dashboard</identifier>
+    <autogen>__KeyToKey__ KeyCode::F12, KeyCode::F12</autogen>
+  </item>
+</root>
