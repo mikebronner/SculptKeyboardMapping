@@ -15,18 +15,20 @@ Follow the detailed [instructions](https://pqrs.org/macosx/keyremap4macbook/docu
 
 ###Mapping
 
-F1    Play/Pause iTunes
-F2    Mute Volume
-F3    Volume Down
-F4    Volume Up
-F5    Spotlight
-F6    App Store
-F7    Take Screenshot
-F8    App Preferences
-F9    Quicklook
-F10   Mission Control
-F11   Show Desktop
-F12   Dashboard
+<table>
+<tr><td>F1</td><td>Play/Pause iTunes</td></tr>
+<tr><td>F2</td><td>Mute Volume</td></tr>
+<tr><td>F3</td><td>Volume Down</td></tr>
+<tr><td>F4</td><td>Volume Up</td></tr>
+<tr><td>F5</td><td>Spotlight</td></tr>
+<tr><td>F6</td><td>App Store</td></tr>
+<tr><td>F7</td><td>Take Screenshot</td></tr>
+<tr><td>F8</td><td>App Preferences</td></tr>
+<tr><td>F9</td><td>Quicklook</td></tr>
+<tr><td>F10</td><td>Mission Control</td></tr>
+<tr><td>F11</td><td>Show Desktop</td></tr>
+<tr><td>F12</td><td>Dashboard</td></tr>
+</table>
 
 ###Problems
 
