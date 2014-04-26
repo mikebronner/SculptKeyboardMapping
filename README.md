@@ -5,7 +5,7 @@ Keyboard mapping for Microsoft Sculpt Keyboard on Mac using [KeyRemap4MacBook](h
 
 ###Description
 
-Use this private.xml file with KeyRemap4MacBook to approximate the described function keys. Please not that this only works in Function Key (white) mode, as the alternate mode keys are not recognized by Macs. This means that your F1 through F12 keys will be remapped. If you rely on your existing Function keys for something else, this probably won't work for you.
+Use this private.xml file with KeyRemap4MacBook to approximate the described function keys. Please not that this only works in Function Key (white) mode, as the alternate mode keys are not recognized by KeyRemap4MacBook. This means that your F1 through F12 keys will be remapped. If you rely on your existing Function keys for something else, this probably won't work for you.
 
 Also, another point of note is that this mapping does not remap according to Mac keyboard layout of the function keys, but instead tries to approximate the funcationality according to the icons as best possible.
 
@@ -16,6 +16,7 @@ Follow the detailed [instructions](https://pqrs.org/macosx/keyremap4macbook/docu
 ###Mapping
 
 <table>
+<tr><td>Applications</td><td>Launchpad</td></tr>
 <tr><td>F1</td><td>Play/Pause iTunes</td></tr>
 <tr><td>F2</td><td>Mute Volume</td></tr>
 <tr><td>F3</td><td>Volume Down</td></tr>
@@ -28,6 +29,17 @@ Follow the detailed [instructions](https://pqrs.org/macosx/keyremap4macbook/docu
 <tr><td>F10</td><td>Mission Control</td></tr>
 <tr><td>F11</td><td>Show Desktop</td></tr>
 <tr><td>F12</td><td>Dashboard</td></tr>
+</table>
+
+###Unmapped Keys
+
+The following keys are currently not able to be mapped, as their input is not recognized by KeyRemap4MacBook:
+
+<table>
+<tr><td>PrtScn</td><td>F13?</td></tr>
+<tr><td>ScrLk</td><td>F14?</td></tr>
+<tr><td>Pause</td><td>F15?</td></tr>
+<tr><td>Calculator</td><td>?</td></tr>
 </table>
 
 ###Problems
